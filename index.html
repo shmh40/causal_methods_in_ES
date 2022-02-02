@@ -62,7 +62,7 @@
 			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">February 27, 2021, online</h3>
 			<ul class="list-inline intro-social-buttons">
 				<!-- TODO: Add registration link -->
-				<li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Register</span></a>
+				<li id="download" ><a href="#register" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Register</span></a>
 				</li>
 				<!-- TODO: Update Twitter link -->
 				<li id="twitter"><a href="https://google.com" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
@@ -75,7 +75,7 @@
         <!-- /.container -->
 		<div class="col-xs-12 text-center abcen wow fadeIn">
 			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#about"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
 			</div>
 		</div>
     </div>
@@ -430,61 +430,33 @@
 	<div id="register" class="content-section-a">
 		<div class="container">
 			<div class="row">
-			
-			<!-- TODO: Set up registration (link + decide how to handle) -->
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
 				<h2>Register</h2>
-				<p class="lead" style="margin-top:0">Zoom link will be sent upon registration.</p>
 			</div>
-			
-			<form role="form" action="" method="post" >
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="InputName">Your Name</label>
-						<div class="input-group">
-							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label for="InputEmail">Your Email</label>
-						<div class="input-group">
-							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label for="InputMessage">Message</label>
-						<div class="input-group">
-							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-						</div>
-					</div>
+			<!-- TODO: Complete Eventbrite registration form -->
+			<!-- TODO: Enable https for website to fix eventbrite embed (see https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) -->
+			<div id="eventbrite-widget-container-261092212837"></div>
 
-					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
-				</div>
-			</form>
-			
-			<hr class="featurette-divider hidden-lg">
-				<div class="col-md-5 col-md-push-1 address">
-					<address>
-					<h3>Office Location</h3>
-					<p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&q=The+Pentagon&fb=1&gl=us&hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&cid=12647181945379443503&ei=qmYfU4H8LoL2oATa0IHIBg&ved=0CKwBEPwSMAo&safe=on">The Pentagon<br>
-					Washington, DC 20301</a><br>
-					Phone: XXX-XXX-XXXX<br>
-					Fax: XXX-XXX-YYYY</p>
-					</address>
+			<script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
-					<h3>Social</h3>
-					<li class="social"> 
-					<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
-					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
-					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
-					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
-					</li>
-				</div>
+			<script type="text/javascript">
+				var exampleCallback = function() {
+					console.log('Order complete!');
+				};
+
+				window.EBWidgets.createWidget({
+					// Required
+					widgetType: 'checkout',
+					eventId: '261092212837',
+					iframeContainerId: 'eventbrite-widget-container-261092212837',
+
+					// Optional
+					iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+					onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+				});
+			</script>
+			
+			
 			</div>
 		</div>
 	</div>
@@ -511,20 +483,6 @@
 			<br>
 		   
 	   
-          </div> <!-- /col-xs-7 -->
-
-          <div class="col-md-5">
-            <div class="footer-banner">
-              <h3 class="footer-title">Flatfy Theme</h3>
-              <ul>
-                <li>12 Column Grid Bootstrap</li>
-                <li>Form Contact</li>
-                <li>Drag Gallery</li>
-                <li>Full Responsive</li>
-                <li>Lorem Ipsum</li>
-              </ul>
-              Go to: <a href="http://andreagalanti.it/flatfy" target="_blank">andreagalanti.it/flatfy</a>
-            </div>
           </div>
         </div>
       </div>
