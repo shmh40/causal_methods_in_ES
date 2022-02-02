@@ -6,6 +6,16 @@
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> <html> <!--<![endif]-->
 <head>
+	<script>
+		function showhide(id) {
+		  var x = document.getElementById(id);
+		  if (x.style.display === "none") {
+			x.style.display = "block";
+		  } else {
+			x.style.display = "none";
+		  }
+		}
+	</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="CAIDD - Cambridge AI in Drug Discovery Convference ">
@@ -127,61 +137,112 @@
 	<!-- Invited speakers -->
     <div id="speakers" class="content-section-a">
 		<div class="container">
+
+			<!-- Speaker row 1 -->
 			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Speakers</h2>
-				<p class="lead" style="margin-top:0">We invited speakers at the forefront of AI for drug discovery in academia and industry.</p>
-			 </div>
-			 
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-desktop fa-4x "> </i> 
+				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+					<h2>Speakers</h2>
+					<p class="lead" style="margin-top:0">We invited speakers at the forefront of AI for drug discovery in academia and industry.</p>
+				</div>
+
+				<!-- Speaker 1 -->
+				<div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+					<img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 1">
+					<h3>Speaker 1</h3>
+					<p class="lead3">Type of talk</p>
+					<p class="lead" style="margin-bottom:0;">Association</p>
+						<a onclick="showhide('speaker1')">Toggle bio</a>
+						<!-- TODO: Decide whether to default show or not show bio (change to display: block) -->
+						<div style="display: none; text-align: left; text-indent: 30px;" id="speaker1"> 
+							<p>
+								Bio of speaker 1.
+							</p>
 						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Bootstrap </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
+					<!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div>
+
+				<!-- Speaker 2 -->
+				<div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+					<img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 2">
+					<h3>Speaker 2</h3>
+					<p class="lead3">Type of talk</p>
+					<p class="lead" style="margin-bottom:0;">Association</p>
+						<a onclick="showhide('speaker2')">Toggle bio</a>
+						<div style="display: none; text-align: left; text-indent: 30px;" id="speaker2">
+							<p>
+								Bio of speaker 2.
+							</p>
 						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-picture-o fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Owl-Carousel </h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
+					<!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div>
+
+			</div>
 		  
-		  <div class="row tworow">
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-magic fa-4x "> </i> 
+			<!-- Speaker row 2 -->
+		  	<div class="row tworow">
+				<!-- Speaker 3 -->
+				<div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+					<img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 3">
+					<h3>Speaker 3</h3>
+					<p class="lead3">Type of talk</p>
+					<p class="lead" style="margin-bottom:0;">Association</p>
+						<a onclick="showhide('speaker3')">Toggle bio</a>
+						<div style="display: none; text-align: left; text-indent: 30px;" id="speaker3">
+							<p>
+								Bio of speaker 3.
+							</p>
 						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Codrops </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
+				</div>
+
+				<!-- Speaker 4 -->
+				<div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+					<img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 4">
+					<h3>Speaker 4</h3>
+					<p class="lead3">Type of talk</p>
+					<p class="lead" style="margin-bottom:0;">Association</p>
+						<a onclick="showhide('speaker4')">Toggle bio</a>
+						<div style="display: none; text-align: left; text-indent: 30px;" id="speaker4">
+							<p>
+								Bio of speaker 4.
+							</p>
 						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-heart fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Lorem Ipsum</h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
+				</div>
+
+		  	</div>
+
+			<!-- Speaker row 3 -->
+		  	<div class="row tworow">
+
+				<!-- Speaker 5 -->
+				<div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+					<img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 5">
+					<h3>Speaker 5</h3>
+					<p class="lead3">Type of talk</p>
+					<p class="lead" style="margin-bottom:0;">Association</p>
+						<a onclick="showhide('speaker5')">Toggle bio</a>
+						<div style="display: none; text-align: left; text-indent: 30px;" id="speaker5">
+							<p>
+								Bio of speaker 5.
+							</p>
+						</div>
+				</div>
+
+				<!-- Speaker 6 -->
+				<div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+					<img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 6">
+					<h3>Speaker 6</h3>
+					<p class="lead3">Type of talk</p>
+					<p class="lead" style="margin-bottom:0;">Association</p>
+						<a onclick="showhide('speaker6')">Toggle bio</a>
+						<div style="display: none; text-align: left; text-indent: 30px;" id="speaker6">
+							<p>
+								Bio of speaker 6.
+							</p>
+						</div>
+				</div>
+
+		  	</div>
+
 		</div>
 	</div>
 
@@ -195,70 +256,81 @@
 				<p class="lead" style="margin-top:0">Finalised schedule TBA soon.</p>
 			 </div>
 		  </div>   
-          </div>
         </div>
-
-
 	</div>	
 	
 	<!-- Organisers -->
 	<div id="organisers" class="content-section-b">
 		<div class="container">
+
+			<!-- Title row -->
 			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+					<h2>Organisers</h2>
+					<p class="lead" style="margin-top:0">A joint effort of the AI Society, the AI in Medicine Society and the Computational Biology group at Cambridge.</p>
+				</div>
+			</div>
 			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Organisers</h2>
-				<p class="lead" style="margin-top:0">A joint effort of the AI Society, the AI in Medicine Society and the Computational Biology group at Cambridge.</p>
-			 </div>
-			 
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-desktop fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Bootstrap </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-picture-o fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Owl-Carousel </h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
+			<!-- Organisers row 1 -->
+			<div class="row">
+
+				<!-- Organiser 1 -->
+				<div class="col-sm-3 col-sm-offset-2 wow fadeInRightBig text-center animated" style="visibility: visible">
+					<h4>Charlie<br>Harris</h4>
+					<img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" 
+					width=100 height=100 alt="Organiser 1">
+					<p class="lead2">Cambridge University</p>
+				</div>
+
+				<!-- Organiser 2 -->
+				<div class="col-sm-3 wow fadeInRightBig text-center animated" style="visibility: visible">
+					<h4>Sebastian<br>Hickman</h4>
+					<img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" 
+					width=100 height=100 alt="Organiser 1">
+					<p class="lead2">Cambridge University</p>
+				</div>
+
+				<!-- Organiser 3 -->
+				<div class="col-sm-3 wow fadeInRightBig text-center animated" style="visibility: visible">
+					<h4>Simon<br>Mathis</h4>
+					<img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" 
+					width=100 height=100 alt="Organiser 1">
+					<p class="lead2">Cambridge University</p>
+				</div>
+
+			</div>
+
+			<!-- Organisers row 2 -->
+			<div class="row tworow">
+
+				<!-- Organiser 1 -->
+				<div class="col-sm-3 col-sm-offset-2 wow fadeInRightBig text-center animated" style="visibility: visible">
+					<h4>Charlie<br>Harris</h4>
+					<img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" 
+					width=100 height=100 alt="Organiser 1">
+					<p class="lead2">Cambridge University</p>
+				</div>
+
+				<!-- Organiser 2 -->
+				<div class="col-sm-3 wow fadeInRightBig text-center animated" style="visibility: visible">
+					<h4>Sebastian<br>Hickman</h4>
+					<img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" 
+					width=100 height=100 alt="Organiser 1">
+					<p class="lead2">Cambridge University</p>
+				</div>
+
+				<!-- Organiser 3 -->
+				<div class="col-sm-3 wow fadeInRightBig text-center animated" style="visibility: visible">
+					<h4>Simon<br>Mathis</h4>
+					<img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" 
+					width=100 height=100 alt="Organiser 1">
+					<p class="lead2">Cambridge University</p>
+				</div>
+
+			</div>
+			
 		  
-		  <div class="row tworow">
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-magic fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Codrops </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-heart fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Lorem Ipsum</h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
+		  
 		</div>
 	</div>
 	
