@@ -1,7 +1,5 @@
-#Flatfy - Theme | New Version!
+# Cambridge AI in Drug Discovery
 
-##Responsive Mobile & Flat Design 
-Own Carousel & Bootstrap Framework CSS 
-Font Icon Svg & Animate
+### Credits
 
 Theme made by [Andrea Galanti](http://www.andreagalanti.it/flatfy.php)
