@@ -1,595 +1,449 @@
 <!-- FlatFy Theme - Andrea Galanti /-->
-<!DOCTYPE html>
+<!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!-->
 <html>
-  <!--<![endif]-->
-  <head>
+<!--<![endif]-->
+
+<head>
     <script>
-      function showhide(id) {
-        var x = document.getElementById(id);
-        if (x.style.display === 'none') {
-          x.style.display = 'block';
-        } else {
-          x.style.display = 'none';
+        function showhide(id) {
+            var x = document.getElementById(id);
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
         }
-      }
     </script>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
-    />
-    <meta
-      name="description"
-      content="CAIDD - Cambridge AI in Drug Discovery Convference "
-    />
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="CAIDD - Cambridge AI in Drug Discovery Convference " />
     <meta name="author" content="CAIDD team" />
 
-    <title>CAIDD – Cambridge AI in Drug Disvoery workshop</title>
+    <title>CAIDD – Cambridge AI in Drug Discovery workshop</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link
-      href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Arvo:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+        href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom CSS-->
-    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet">
 
     <!-- Owl-Carousel -->
-    <link href="css/custom.css" rel="stylesheet" />
-    <link href="css/owl.carousel.css" rel="stylesheet" />
-    <link href="css/owl.theme.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <script src="js/modernizr-2.8.3.min.js"></script>
-    <!-- Modernizr /-->
+    <script src="js/modernizr-2.8.3.min.js"></script> <!-- Modernizr /-->
     <!--[if IE 9]>
-      <script src="js/PIE_IE9.js"></script>
-    <![endif]-->
+		<script src="js/PIE_IE9.js"></script>
+	<![endif]-->
     <!--[if lt IE 9]>
-      <script src="js/PIE_IE678.js"></script>
-    <![endif]-->
+		<script src="js/PIE_IE678.js"></script>
+	<![endif]-->
 
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
-  </head>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
 
-  <body id="home">
+</head>
+
+<body id="home">
+
     <!-- Preloader -->
     <div id="preloader">
-      <div id="status"></div>
+        <div id="status"></div>
     </div>
 
     <!-- FullScreen -->
     <div class="intro-header">
-      <div class="col-xs-12 text-center abcen1">
-        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">
-          Cambridge AI in Drug Discovery<br />
-          Conference
-        </h1>
-        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">
-          February 27, 2021
-        </h3>
-        <h3 class="h3_home wow fadeIn" data-wow-delay="0.8s">Online</h3>
-        <ul class="list-inline intro-social-buttons">
-          <!-- TODO: Add registration link -->
-          <li id="download">
-            <a
-              href="#register"
-              class="btn btn-lg mybutton_standard wow swing wow fadeIn"
-              data-wow-delay="1.2s"
-              ><span class="network-name">Register</span></a
-            >
-          </li>
-          <!-- TODO: Update Twitter link -->
-          <li id="twitter">
-            <a
-              href="https://google.com"
-              class="btn btn-lg mybutton_cyano wow fadeIn"
-              data-wow-delay="0.8s"
-              ><span class="network-name">Twitter</span></a
-            >
-          </li>
-          <!-- TODO: Update Facebook link -->
-          <li id="facebook">
-            <a
-              href="https://google.com"
-              class="btn btn-lg mybutton_cyano wow fadeIn"
-              data-wow-delay="0.8s"
-              ><span class="network-name">Facebook</span></a
-            >
-          </li>
-        </ul>
-      </div>
-      <!-- /.container -->
-      <div class="col-xs-12 text-center abcen wow fadeIn">
-        <div class="button_down">
-          <a
-            class="imgcircle wow bounceInUp"
-            data-wow-duration="1.5s"
-            href="#about"
-          >
-            <img class="img_scroll" src="img/icon/circle.png" alt="" />
-          </a>
+        <div class="col-xs-12 text-center abcen1">
+            <!-- <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Cambridge AI in Drug Discovery<br />
+                Conference</h1>
+            <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Saturday, February 26, 2021</h3>
+            <ul class="list-inline intro-social-buttons">
+                <li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn"
+                        data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
+                </li>
+                <li id="download"><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn"
+                        data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
+                </li>
+            </ul> -->
         </div>
-      </div>
+        <!-- /.container -->
+        <div class="col-xs-12 text-center abcen wow fadeIn">
+            <div class="button_down ">
+                <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#about"> <img class="img_scroll"
+                        src="img/icon/circle.png" alt=""> </a>
+            </div>
+        </div>
     </div>
 
     <!-- NavBar-->
     <nav class="navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle"
-            data-toggle="collapse"
-            data-target=".navbar-ex1-collapse"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#home">CAIDD</a>
-        </div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">CAIDD</a>
+            </div>
 
-        <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            <li class="menuItem"><a href="#about">About</a></li>
-            <li class="menuItem"><a href="#speakers">Invited Speakers</a></li>
-            <li class="menuItem"><a href="#schedule">Schedule</a></li>
-            <li class="menuItem"><a href="#organisers">Organisers</a></li>
-            <li class="menuItem"><a href="#register">Register</a></li>
-          </ul>
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li class="menuItem"><a href="#about">About</a></li>
+                    <li class="menuItem"><a href="#speakers">Invited Speakers</a></li>
+                    <li class="menuItem"><a href="#schedule">Schedule</a></li>
+                    <li class="menuItem"><a href="#organisers">Organisers</a></li>
+                    <li class="menuItem"><a href="#register">Register</a></li>
+                </ul>
+            </div>
+
         </div>
-      </div>
     </nav>
 
     <!-- About -->
     <div id="about" class="content-section-b" style="border-top: 0">
-      <div class="container">
-        <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-          <h2>About CAIDD</h2>
-          <p class="lead" style="margin-top: 0">
-            1<sup>st</sup> Cambridge AI in Drug Discovery Conference
-          </p>
-        </div>
+        <div class="container">
 
-        <div class="row">
-          <div
-            class="col-md-12 wow fadeInLeftBig animated animated"
-            e=""
-            data-animation-delay="200"
-            style="visibility: visible; animation-name: fadeInLeftBig"
-          >
-            <p class="lead">
-              Structural biology, the study of proteins and other biomolecules
-              through their 3D structures, is a field on the cusp of
-              transformation. While measuring and interpreting biomolecular
-              structures has traditionally been an expensive and difficult
-              endeavor, recent machine-learning based modeling approaches have
-              shown that it will become routine to predict and reason about
-              structure at proteome scales with unprecedented atomic resolution.
-              This broad liberation of 3D structure within bioscience and
-              biomedicine will likely have transformative impacts on our ability
-              to create effective medicines, to understand and engineer biology,
-              and to design new molecular materials and machinery. Machine
-              learning also shows great promise to continue to revolutionize
-              many core technical problems in structural biology, including
-              protein design, modelling protein dynamics, predicting higher
-              order complexes, and integrating learning with experimental
-              structure determination.
-            </p>
-            <p class="lead">
-              At this inflection point, we hope that the Machine Learning in
-              Structural Biology (MLSB) workshop will help bring community and
-              direction to this rising field. To achieve these goals, this
-              workshop will bring together researchers from a unique and diverse
-              set of domains, including core machine learning, computational
-              biology, experimental structural biology, geometric deep learning,
-              and natural language processing.
-            </p>
+            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                <h2>About CAIDD</h2>
+                <p class="lead" style="margin-top:0">1<sup>st</sup> Cambridge AI in Drug Discovery Conference</p>
 
-            <p class="lead">
-              To attend the MLSB workshop talks, poster sessions, and virtual
-              hangouts,
-              <strong> register for the main NeurIPS conference</strong> at
-              <a href="https://neurips.cc">neurips.cc</a>.
-            </p>
-          </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 wow fadeInLeftBig animated animated" e="" data-animation-delay="200"
+                    style="visibility: visible; animation-name: fadeInLeftBig">
+                    <p class="lead">
+                        Structural biology, the study of proteins and other biomolecules
+                        through their 3D structures, is a field on the cusp of
+                        transformation. While measuring and interpreting biomolecular
+                        structures has traditionally been an expensive and difficult
+                        endeavor, recent machine-learning based modeling approaches have
+                        shown that it will become routine to predict and reason about
+                        structure at proteome scales with unprecedented atomic resolution.
+                        This broad liberation of 3D structure within bioscience and
+                        biomedicine will likely have transformative impacts on our ability
+                        to create effective medicines, to understand and engineer biology,
+                        and to design new molecular materials and machinery. Machine
+                        learning also shows great promise to continue to revolutionize
+                        many core technical problems in structural biology, including
+                        protein design, modelling protein dynamics, predicting higher
+                        order complexes, and integrating learning with experimental
+                        structure determination.
+                    </p>
+                    <p class="lead">
+                        At this inflection point, we hope that the Machine Learning in
+                        Structural Biology (MLSB) workshop will help bring community and
+                        direction to this rising field. To achieve these goals, this
+                        workshop will bring together researchers from a unique and diverse
+                        set of domains, including core machine learning, computational
+                        biology, experimental structural biology, geometric deep learning,
+                        and natural language processing.
+                    </p>
+
+                    <p class="lead">
+                        To attend the MLSB workshop talks, poster sessions, and virtual
+                        hangouts,
+                        <strong> register for the main NeurIPS conference</strong> at
+                        <a href="https://neurips.cc">neurips.cc</a>.
+                    </p>
+                </div>
+            </div><!-- /.row -->
+
         </div>
-      </div>
     </div>
 
     <!-- Invited speakers -->
     <div id="speakers" class="content-section-a">
-      <div class="container">
-        <!-- Speaker row 1 -->
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-            <h2>Speakers</h2>
-            <p class="lead" style="margin-top: 0">
-              We invited speakers at the forefront of AI for drug discovery in
-              academia and industry.
-            </p>
-          </div>
+        <div class="container">
+            <!-- Speaker row 1 -->
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                    <h2>Speakers</h2>
+                    <p class="lead" style="margin-top: 0">
+                        We invited speakers at the forefront of AI for drug discovery in
+                        academia and industry.
+                    </p>
+                </div>
 
-          <!-- Speaker 1 -->
-          <div
-            class="col-sm-6 wow fadeInDown text-center animated"
-            style="visibility: visible"
-          >
-            <img
-              class="magnify img-rounded"
-              src="img/speakers/michael_bronstein.jpg"
-              alt="Speaker 1"
-            />
-            <h3>Speaker 1</h3>
-            <p class="lead3">Type of talk</p>
-            <p class="lead" style="margin-bottom: 0">Association</p>
-            <a onclick="showhide('speaker1')">Toggle bio</a>
-            <!-- TODO: Decide whether to default show or not show bio (change to display: block) -->
-            <div
-              style="display: none; text-align: left; text-indent: 30px"
-              id="speaker1"
-            >
-              <p>Bio of speaker 1.</p>
-            </div>
-            <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-          </div>
+                <!-- Speaker 1 -->
+                <div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+                    <img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 1" />
+                    <h3>Speaker 1</h3>
+                    <p class="lead3">Type of talk</p>
+                    <p class="lead" style="margin-bottom: 0">Association</p>
+                    <a onclick="showhide('speaker1')">Toggle bio</a>
+                    <!-- TODO: Decide whether to default show or not show bio (change to display: block) -->
+                    <div style="display: none; text-align: left; text-indent: 30px" id="speaker1">
+                        <p>Bio of speaker 1.</p>
+                    </div>
+                    <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div>
 
-          <!-- Speaker 2 -->
-          <div
-            class="col-sm-6 wow fadeInDown text-center animated"
-            style="visibility: visible"
-          >
-            <img
-              class="magnify img-rounded"
-              src="img/speakers/michael_bronstein.jpg"
-              alt="Speaker 2"
-            />
-            <h3>Speaker 2</h3>
-            <p class="lead3">Type of talk</p>
-            <p class="lead" style="margin-bottom: 0">Association</p>
-            <a onclick="showhide('speaker2')">Toggle bio</a>
-            <div
-              style="display: none; text-align: left; text-indent: 30px"
-              id="speaker2"
-            >
-              <p>Bio of speaker 2.</p>
+                <!-- Speaker 2 -->
+                <div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+                    <img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 2" />
+                    <h3>Speaker 2</h3>
+                    <p class="lead3">Type of talk</p>
+                    <p class="lead" style="margin-bottom: 0">Association</p>
+                    <a onclick="showhide('speaker2')">Toggle bio</a>
+                    <div style="display: none; text-align: left; text-indent: 30px" id="speaker2">
+                        <p>Bio of speaker 2.</p>
+                    </div>
+                    <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div>
             </div>
-            <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-          </div>
+
+            <!-- Speaker row 2 -->
+            <div class="row tworow">
+                <!-- Speaker 3 -->
+                <div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+                    <img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 3" />
+                    <h3>Speaker 3</h3>
+                    <p class="lead3">Type of talk</p>
+                    <p class="lead" style="margin-bottom: 0">Association</p>
+                    <a onclick="showhide('speaker3')">Toggle bio</a>
+                    <div style="display: none; text-align: left; text-indent: 30px" id="speaker3">
+                        <p>Bio of speaker 3.</p>
+                    </div>
+                </div>
+
+                <!-- Speaker 4 -->
+                <div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+                    <img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 4" />
+                    <h3>Speaker 4</h3>
+                    <p class="lead3">Type of talk</p>
+                    <p class="lead" style="margin-bottom: 0">Association</p>
+                    <a onclick="showhide('speaker4')">Toggle bio</a>
+                    <div style="display: none; text-align: left; text-indent: 30px" id="speaker4">
+                        <p>Bio of speaker 4.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker row 3 -->
+            <div class="row tworow">
+                <!-- Speaker 5 -->
+                <div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+                    <img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 5" />
+                    <h3>Speaker 5</h3>
+                    <p class="lead3">Type of talk</p>
+                    <p class="lead" style="margin-bottom: 0">Association</p>
+                    <a onclick="showhide('speaker5')">Toggle bio</a>
+                    <div style="display: none; text-align: left; text-indent: 30px" id="speaker5">
+                        <p>Bio of speaker 5.</p>
+                    </div>
+                </div>
+
+                <!-- Speaker 6 -->
+                <div class="col-sm-6 wow fadeInDown text-center animated" style="visibility: visible">
+                    <img class="magnify img-rounded" src="img/speakers/michael_bronstein.jpg" alt="Speaker 6" />
+                    <h3>Speaker 6</h3>
+                    <p class="lead3">Type of talk</p>
+                    <p class="lead" style="margin-bottom: 0">Association</p>
+                    <a onclick="showhide('speaker6')">Toggle bio</a>
+                    <div style="display: none; text-align: left; text-indent: 30px" id="speaker6">
+                        <p>Bio of speaker 6.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!-- Speaker row 2 -->
-        <div class="row tworow">
-          <!-- Speaker 3 -->
-          <div
-            class="col-sm-6 wow fadeInDown text-center animated"
-            style="visibility: visible"
-          >
-            <img
-              class="magnify img-rounded"
-              src="img/speakers/michael_bronstein.jpg"
-              alt="Speaker 3"
-            />
-            <h3>Speaker 3</h3>
-            <p class="lead3">Type of talk</p>
-            <p class="lead" style="margin-bottom: 0">Association</p>
-            <a onclick="showhide('speaker3')">Toggle bio</a>
-            <div
-              style="display: none; text-align: left; text-indent: 30px"
-              id="speaker3"
-            >
-              <p>Bio of speaker 3.</p>
-            </div>
-          </div>
-
-          <!-- Speaker 4 -->
-          <div
-            class="col-sm-6 wow fadeInDown text-center animated"
-            style="visibility: visible"
-          >
-            <img
-              class="magnify img-rounded"
-              src="img/speakers/michael_bronstein.jpg"
-              alt="Speaker 4"
-            />
-            <h3>Speaker 4</h3>
-            <p class="lead3">Type of talk</p>
-            <p class="lead" style="margin-bottom: 0">Association</p>
-            <a onclick="showhide('speaker4')">Toggle bio</a>
-            <div
-              style="display: none; text-align: left; text-indent: 30px"
-              id="speaker4"
-            >
-              <p>Bio of speaker 4.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Speaker row 3 -->
-        <div class="row tworow">
-          <!-- Speaker 5 -->
-          <div
-            class="col-sm-6 wow fadeInDown text-center animated"
-            style="visibility: visible"
-          >
-            <img
-              class="magnify img-rounded"
-              src="img/speakers/michael_bronstein.jpg"
-              alt="Speaker 5"
-            />
-            <h3>Speaker 5</h3>
-            <p class="lead3">Type of talk</p>
-            <p class="lead" style="margin-bottom: 0">Association</p>
-            <a onclick="showhide('speaker5')">Toggle bio</a>
-            <div
-              style="display: none; text-align: left; text-indent: 30px"
-              id="speaker5"
-            >
-              <p>Bio of speaker 5.</p>
-            </div>
-          </div>
-
-          <!-- Speaker 6 -->
-          <div
-            class="col-sm-6 wow fadeInDown text-center animated"
-            style="visibility: visible"
-          >
-            <img
-              class="magnify img-rounded"
-              src="img/speakers/michael_bronstein.jpg"
-              alt="Speaker 6"
-            />
-            <h3>Speaker 6</h3>
-            <p class="lead3">Type of talk</p>
-            <p class="lead" style="margin-bottom: 0">Association</p>
-            <a onclick="showhide('speaker6')">Toggle bio</a>
-            <div
-              style="display: none; text-align: left; text-indent: 30px"
-              id="speaker6"
-            >
-              <p>Bio of speaker 6.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- TODO: Add schedule tab -->
     <!-- Schedule -->
     <div id="schedule" class="content-section-c">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center wrap_title white">
-            <h2>Schedule</h2>
-            <p class="lead" style="margin-top: 0">
-              Finalised schedule TBA soon.
-            </p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center wrap_title white">
+                    <h2>Schedule</h2>
+                    <p class="lead" style="margin-top: 0">
+                        Finalised schedule TBA soon.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Organisers -->
     <div id="organisers" class="content-section-b">
-      <div class="container">
-        <!-- Title row -->
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-            <h2>Organisers</h2>
-            <p class="lead" style="margin-top: 0">
-              A joint effort of the AI Society, the AI in Medicine Society and
-              the Computational Biology group at Cambridge.
-            </p>
-          </div>
+        <div class="container">
+            <!-- Title row -->
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                    <h2>Organisers</h2>
+                    <p class="lead" style="margin-top: 0">
+                        A joint effort of the AI Society, the AI in Medicine Society and
+                        the Computational Biology group at Cambridge.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Organisers row 1 -->
+            <div class="row">
+                <!-- Organiser 1 -->
+                <div class="col-sm-3 col-sm-offset-2 wow fadeInRightBig text-center animated"
+                    style="visibility: visible">
+                    <h4>Charlie<br />Harris</h4>
+                    <img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" width="100" height="100"
+                        alt="Organiser 1" />
+                    <p class="lead2">Cambridge University</p>
+                </div>
+
+                <!-- Organiser 2 -->
+                <div class="col-sm-3 wow fadeInRightBig text-center animated" style="visibility: visible">
+                    <h4>Sebastian<br />Hickman</h4>
+                    <img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" width="100" height="100"
+                        alt="Organiser 1" />
+                    <p class="lead2">Cambridge University</p>
+                </div>
+
+                <!-- Organiser 3 -->
+                <div class="col-sm-3 wow fadeInRightBig text-center animated" style="visibility: visible">
+                    <h4>Simon<br />Mathis</h4>
+                    <img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" width="100" height="100"
+                        alt="Organiser 1" />
+                    <p class="lead2">Cambridge University</p>
+                </div>
+            </div>
+
+            <!-- Organisers row 2 -->
+            <div class="row tworow">
+                <!-- Organiser 1 -->
+                <div class="col-sm-3 col-sm-offset-2 wow fadeInRightBig text-center animated"
+                    style="visibility: visible">
+                    <h4>Charlie<br />Harris</h4>
+                    <img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" width="100" height="100"
+                        alt="Organiser 1" />
+                    <p class="lead2">Cambridge University</p>
+                </div>
+
+                <!-- Organiser 2 -->
+                <div class="col-sm-3 wow fadeInRightBig text-center animated" style="visibility: visible">
+                    <h4>Sebastian<br />Hickman</h4>
+                    <img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" width="100" height="100"
+                        alt="Organiser 1" />
+                    <p class="lead2">Cambridge University</p>
+                </div>
+
+                <!-- Organiser 3 -->
+                <div class="col-sm-3 wow fadeInRightBig text-center animated" style="visibility: visible">
+                    <h4>Simon<br />Mathis</h4>
+                    <img class="magnify img-rounded" src="img/organisers/simon_mathis.jpg" width="100" height="100"
+                        alt="Organiser 1" />
+                    <p class="lead2">Cambridge University</p>
+                </div>
+            </div>
         </div>
-
-        <!-- Organisers row 1 -->
-        <div class="row">
-          <!-- Organiser 1 -->
-          <div
-            class="col-sm-3 col-sm-offset-2 wow fadeInRightBig text-center animated"
-            style="visibility: visible"
-          >
-            <h4>Charlie<br />Harris</h4>
-            <img
-              class="magnify img-rounded"
-              src="img/organisers/simon_mathis.jpg"
-              width="100"
-              height="100"
-              alt="Organiser 1"
-            />
-            <p class="lead2">Cambridge University</p>
-          </div>
-
-          <!-- Organiser 2 -->
-          <div
-            class="col-sm-3 wow fadeInRightBig text-center animated"
-            style="visibility: visible"
-          >
-            <h4>Sebastian<br />Hickman</h4>
-            <img
-              class="magnify img-rounded"
-              src="img/organisers/simon_mathis.jpg"
-              width="100"
-              height="100"
-              alt="Organiser 1"
-            />
-            <p class="lead2">Cambridge University</p>
-          </div>
-
-          <!-- Organiser 3 -->
-          <div
-            class="col-sm-3 wow fadeInRightBig text-center animated"
-            style="visibility: visible"
-          >
-            <h4>Simon<br />Mathis</h4>
-            <img
-              class="magnify img-rounded"
-              src="img/organisers/simon_mathis.jpg"
-              width="100"
-              height="100"
-              alt="Organiser 1"
-            />
-            <p class="lead2">Cambridge University</p>
-          </div>
-        </div>
-
-        <!-- Organisers row 2 -->
-        <div class="row tworow">
-          <!-- Organiser 1 -->
-          <div
-            class="col-sm-3 col-sm-offset-2 wow fadeInRightBig text-center animated"
-            style="visibility: visible"
-          >
-            <h4>Charlie<br />Harris</h4>
-            <img
-              class="magnify img-rounded"
-              src="img/organisers/simon_mathis.jpg"
-              width="100"
-              height="100"
-              alt="Organiser 1"
-            />
-            <p class="lead2">Cambridge University</p>
-          </div>
-
-          <!-- Organiser 2 -->
-          <div
-            class="col-sm-3 wow fadeInRightBig text-center animated"
-            style="visibility: visible"
-          >
-            <h4>Sebastian<br />Hickman</h4>
-            <img
-              class="magnify img-rounded"
-              src="img/organisers/simon_mathis.jpg"
-              width="100"
-              height="100"
-              alt="Organiser 1"
-            />
-            <p class="lead2">Cambridge University</p>
-          </div>
-
-          <!-- Organiser 3 -->
-          <div
-            class="col-sm-3 wow fadeInRightBig text-center animated"
-            style="visibility: visible"
-          >
-            <h4>Simon<br />Mathis</h4>
-            <img
-              class="magnify img-rounded"
-              src="img/organisers/simon_mathis.jpg"
-              width="100"
-              height="100"
-              alt="Organiser 1"
-            />
-            <p class="lead2">Cambridge University</p>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- Contact -->
     <div id="register" class="content-section-a">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-            <h2>Register</h2>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                    <h2>Register</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <!-- TODO: Complete Eventbrite registration form -->
+                    <!-- TODO: Enable https for website to fix eventbrite embed (see https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) -->
+                    <div id="eventbrite-widget-container-261096415407"></div>
+
+                    <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+                    <script type="text/javascript">
+                        var exampleCallback = function () {
+                            console.log('Order complete!');
+                        };
+
+                        window.EBWidgets.createWidget({
+                            // Required
+                            widgetType: 'checkout',
+                            eventId: '261096415407',
+                            iframeContainerId: 'eventbrite-widget-container-261096415407',
+
+                            // Optional
+                            iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                            onOrderComplete: exampleCallback, // Method called when an order has successfully completed
+                        });
+                    </script>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-sm">
-            <!-- TODO: Complete Eventbrite registration form -->
-            <!-- TODO: Enable https for website to fix eventbrite embed (see https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) -->
-            <div id="eventbrite-widget-container-261096415407"></div>
-
-            <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
-
-            <script type="text/javascript">
-              var exampleCallback = function () {
-                console.log('Order complete!');
-              };
-
-              window.EBWidgets.createWidget({
-                // Required
-                widgetType: 'checkout',
-                eventId: '261096415407',
-                iframeContainerId: 'eventbrite-widget-container-261096415407',
-
-                // Optional
-                iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-                onOrderComplete: exampleCallback, // Method called when an order has successfully completed
-              });
-            </script>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <h3 class="footer-title">Contact us</h3>
-            <p>
-              Please contact
-              <a href="mailto: workshopcaidd@gmail.com"
-                >workshopcaidd@gmail.com</a
-              >
-              with any questions.
-            </p>
-
-            <!-- LICENSE -->
-            <h3 class="footer-title">Credits</h3>
-            <p>
-              This website is inspired by
-              <a href="https://www.mlsb.io/">mlsb.io</a> and based on the
-              <a
-                rel="cc:attributionURL"
-                href="http://www.andreagalanti.it/flatfy"
-                property="dc:title"
-                >Flatfy Theme
-              </a>
-              by
-              <a
-                rel="dc:creator"
-                href="http://www.andreagalanti.it"
-                property="cc:attributionName"
-                >Andrea Galanti</a
-              >.<br />
-              The theme is licensed to the public under the
-              <a
-                rel="license"
-                href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it"
-                >Creative Commons Attribution 3.0 License - NOT COMMERCIAL</a
-              >.
-            </p>
-            <br />
-          </div>
+    <!-- Weird section - removing this breaks stuff, don't know why -->
+    <div class="content-section-c ", style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <div class="mockup-content">
+                        <div class="morph-button">
+                            <button type="button " style="display: none;"><span>Subscribe to our Newsletter</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
+    <!-- END OF WEIRD SECTION-->
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="footer-title">Contact us</h3>
+                    <p>
+                        Please contact
+                        <a href="mailto: workshopcaidd@gmail.com">workshopcaidd@gmail.com</a>
+                        with any questions.
+                    </p>
+
+                    <!-- LICENSE -->
+                    <h3 class="footer-title">Credits</h3>
+          <p>
+            This website is inspired by
+            <a href="https://www.mlsb.io/">mlsb.io</a> and based on the
+            <a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy" property="dc:title">Flatfy Theme
+            </a>
+            by
+            <a rel="dc:creator" href="http://www.andreagalanti.it" property="cc:attributionName">Andrea
+              Galanti</a>.<br />
+            The theme is licensed to the public under the
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative Commons
+              Attribution 3.0 License - NOT COMMERCIAL</a>.
+          </p>
+
+
+                </div> <!-- /col-xs-7 -->
+
+            </div>
+        </div>
     </footer>
 
     <!-- JavaScript -->
@@ -597,26 +451,27 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/script.js"></script>
-
     <!-- StikyMenu -->
     <script src="js/stickUp.min.js"></script>
     <script type="text/javascript">
-      jQuery(function ($) {
-        $(document).ready(function () {
-          $('.navbar-default').stickUp();
-        });
-      });
-    </script>
+        jQuery(function ($) {
+            $(document).ready(function () {
+                $('.navbar-default').stickUp();
 
+            });
+        });
+
+    </script>
     <!-- Smoothscroll -->
     <script type="text/javascript" src="js/jquery.corner.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
-      new WOW().init();
+        new WOW().init();
     </script>
     <script src="js/classie.js"></script>
     <script src="js/uiMorphingButton_inflow.js"></script>
     <!-- Magnific Popup core JS file -->
     <script src="js/jquery.magnific-popup.js"></script>
-  </body>
+</body>
+
 </html>
